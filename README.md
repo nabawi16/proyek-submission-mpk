@@ -90,3 +90,24 @@ Kode utama terletak dalam fungsi `main()`. Anda akan melihat bahwa dalam fungsi 
 
 - Kita memanggil `checkType()` dengan berbagai nilai, termasuk daftar, string, boolean, dan double. Hasil dari pemanggilan ini akan dicetak ke layar.
 
+
+# README Latihan 4
+
+Latihan 4 ini fokus pada penggunaan koleksi tipe `Map` dalam bahasa Kotlin. Anda akan belajar cara membuat dan menginisialisasi `Map` dengan menggunakan pasangan kunci-nilai (key-value pair). Tugas dalam latihan ini adalah melengkapi inisialisasi `Map` dengan pasangan kunci-nilai yang telah disediakan.
+
+## Tugas
+
+### TODO: Inisialisasi Map dengan Pasangan Kunci-Nilai
+
+Pada tugas ini, Anda diminta untuk melengkapi kode dalam fungsi `vehicle()` yang mengembalikan tipe data `Map<String, String>`. Anda perlu menginisialisasi `Map` dengan pasangan kunci-nilai berikut:
+
+- Kunci: type, Nilai: motorcycle
+- Kunci: maxSpeed, Nilai: 230Km/s
+- Kunci: maxTank, Nilai: 100Ltr
+
+Anda harus mengikuti sintaksis yang benar untuk menginisialisasi `Map` dengan pasangan kunci-nilai yang sesuai.
+
+## Penggunaan Kode
+
+Kode utama terletak dalam fungsi `main()`. Anda akan melihat bahwa dalam fungsi `main()`, kita mencetak hasil dari fungsi `vehicle()` ke layar. Hasilnya akan berupa `Map` yang mengandung tiga pasangan kunci-nilai sesuai dengan instruksi yang telah Anda lengkapi.
+
