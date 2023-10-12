@@ -39,3 +39,29 @@ Kode utama terletak dalam fungsi `main()`. Anda akan melihat bahwa dalam fungsi 
 
 - Untuk angka yang tidak masuk dalam kedua kriteria di atas, kita akan menghitung hasil sesuai rumus dari TODO 3 dan mencetak hasilnya ke layar.
 
+# README Latihan 2
+
+Latihan 2 ini dirancang untuk mengasah kemampuan Anda dalam mengubah fungsi-fungsi dan melakukan perhitungan serta manipulasi data. Pada latihan ini, Anda akan fokus pada dua tugas yang memerlukan penyesuaian kode.
+
+## Tugas
+
+### TODO 1: Perhitungan dengan Penanganan Nilai Default
+
+Pada tugas ini, Anda diminta untuk mengimplementasikan fungsi `calculate(valueA: Int, valueB: Int, valueC: Int?): Int` sehingga dapat mengembalikan nilai dengan menggunakan rumus berikut: `valueA + (valueB - valueC)`. Namun, ada penanganan khusus saat `valueC` bernilai `null`. Anda harus mengatur nilai default 50 sebagai gantinya. Ini akan memungkinkan Anda mengatasi nilai `null` dan menghasilkan perhitungan yang benar.
+
+### TODO 2: Membuat String Hasil
+
+Tugas kedua meminta Anda untuk mengisi kode pada fungsi `result(result: Int)` agar dapat menghasilkan teks yang sesuai dengan format yang diberikan: "Result is ${result}". Anda akan menggunakan nilai yang dihitung dari tugas pertama sebagai parameter.
+
+## Penggunaan Kode
+
+Kode utama terletak dalam fungsi `main()`. Anda akan melihat bahwa dalam fungsi `main()`, kita memiliki tiga variabel `valueA`, `valueB`, dan `valueC` dengan nilai-nilai tertentu.
+
+- Kita menggunakan fungsi `calculate()` dua kali: sekali dengan `valueC` yang memiliki nilai, dan sekali lagi dengan `valueC` yang bernilai `null`.
+
+- Hasil perhitungan dari kedua panggilan fungsi `calculate()` disimpan dalam variabel `resultA` dan `resultB`.
+
+- Kemudian, kita menggunakan fungsi `result()` untuk menghasilkan string dengan nilai hasil dari perhitungan.
+
+- Akhirnya, kita mencetak string-string hasil ke layar.
+
