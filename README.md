@@ -111,3 +111,33 @@ Anda harus mengikuti sintaksis yang benar untuk menginisialisasi `Map` dengan pa
 
 Kode utama terletak dalam fungsi `main()`. Anda akan melihat bahwa dalam fungsi `main()`, kita mencetak hasil dari fungsi `vehicle()` ke layar. Hasilnya akan berupa `Map` yang mengandung tiga pasangan kunci-nilai sesuai dengan instruksi yang telah Anda lengkapi.
 
+
+# README Latihan 5
+
+Latihan 5 ini berkaitan dengan penggunaan suspending functions (fungsi penangguhan) dan konsep asynchronous programming dalam Kotlin. Anda akan mengubah dua fungsi agar menjadi suspending functions dengan menggunakan operator `suspend`, dan Anda akan menambahkan operasi penangguhan dengan `delay`. Selain itu, Anda akan menggunakan `async` dan `await` untuk menjalankan fungsi-fungsi tersebut secara asynchronous.
+
+## Tugas
+
+### TODO 1: Mengubah Fungsi sum()
+
+Pada tugas ini, Anda diminta untuk mengubah fungsi `sum(valueA: Int, valueB: Int)` agar memenuhi kriteria berikut:
+
+- Mengubahnya menjadi suspending function dengan menambahkan operator `suspend`.
+- Menambahkan penangguhan (delay) selama 3 detik.
+- Mengembalikan nilai hasil perhitungan dengan rumus `valueA + valueB`.
+
+### TODO 2: Mengubah Fungsi multiple()
+
+Tugas kedua meminta Anda untuk mengubah fungsi `multiple(valueA: Int, valueB: Int)` agar memenuhi kriteria berikut:
+
+- Mengubahnya menjadi suspending function dengan menambahkan operator `suspend`.
+- Menambahkan penangguhan (delay) selama 2 detik.
+- Mengembalikan nilai hasil perhitungan dengan rumus `valueA * valueB`.
+
+## Penggunaan Kode
+
+Kode utama terletak dalam fungsi `main()`. Anda akan melihat bahwa dalam fungsi `main()`, kita menggunakan `runBlocking` untuk menjalankan operasi asynchronous.
+
+- Kami menjalankan dua fungsi (`sum` dan `multiple`) secara asynchronous menggunakan `async`, dan menyimpan hasilnya dalam variabel `resultSum` dan `resultMultiple`.
+- Kemudian, kami menggunakan `await` untuk menunggu hasil dari kedua fungsi tersebut.
+- Hasil dari perhitungan masing-masing fungsi dicetak ke layar.
