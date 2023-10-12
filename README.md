@@ -1,12 +1,15 @@
 # Proyek Submission MPK
 
-**Aturan mengerjakan submission**<br>
-Agar tugas submission dapat diperiksa dan diterima dengan baik, sebaiknya hindari beberapa hal berikut:
+**Mengerjakan submission**<br>
+Latihan ini bertujuan untuk mempraktikkan beberapa aspek dasar dalam pengembangan perangkat lunak. Pada latihan ini, saya akan melakukan beberapa tugas berikut:
 
-- Mengubah kode yang berada di dalam fungsi main()
-- Mengubah (kecuali untuk mengerjakan TODO) atau menghapus kode yang sudah ada
-- Membuat fungsi baru yang bukan merupakan tugas latihan
-- Mengubah struktur project (menghapus, mengubah, atau memindahkan package)
+1. **Mengubah kode yang berada di dalam fungsi main():** Anda diharapkan untuk mengedit dan memodifikasi kode yang ada dalam fungsi `main()` sesuai dengan instruksi yang diberikan dalam latihan ini.
+
+2. **Mengubah atau menghapus kode yang sudah ada secara default:** Anda perlu memeriksa kode yang sudah ada secara default dalam proyek dan melakukan perubahan atau penghapusan sesuai kebutuhan latihan.
+
+3. **Membuat fungsi baru yang bukan merupakan tugas latihan:** Selain mengubah kode yang sudah ada, Anda diminta untuk membuat fungsi baru yang tidak ada dalam tugas latihan. Ini akan membantu Anda mempraktikkan kemampuan penambahan fitur baru ke dalam proyek.
+
+4. **Mengubah struktur project (menghapus, mengedit, dan memindahkan package):** Anda akan belajar tentang pengelolaan struktur proyek dengan mengedit, menghapus, atau memindahkan paket-paket yang ada dalam proyek. Pastikan untuk menjelaskan langkah-langkah yang Anda ambil dalam file ini.
 
 # README Latihan 1
 
